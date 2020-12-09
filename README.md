@@ -1,14 +1,14 @@
 # Spring
-Repo contenant plusieurs application permettant de faire tourner un projet spring entier de Base de donnée de peintures
+Repo contenant plusieurs application permettant de faire tourner un projet spring entier de Base de donnée de peintures  
 
 ## Installation
 Clonez le repository :
 ```
 $ git clone https://github.com/tameII/Spring.git
 ```
-Vous allez avoir la copie contenant tout les projets au propre. 
+Vous allez avoir la copie contenant tout les projets au propre.  
 
-Crééz un depot git à au niveau de MyConfig dans le projet springConfigServer:
+Crééz un depot git à au niveau de MyConfig dans le projet springConfigServer:  
 ```
 $ cd PathToSpringConfigServer/src/main/resources/myConfig
 $ git init
@@ -19,13 +19,14 @@ $ git commit -m "initialisation configServer"
 Vous avez maintenant la configuration de départ pour lancer le projet. 
 
 ## Démarrage
-Ordre de lancement des projets :
-Config -> Découverte -> Proxy -> Métier(s)
-Métier(s) fait references aux applications Art.
-Une fois lancé, vous pourrez accéder à chacune des application sur leurs port respectifs. 
+Ordre de lancement des projets :  
+Config -> Découverte -> Proxy -> Métier(s)  
+Métier(s) fait references aux applications Art.  
+Une fois lancé, vous pourrez accéder à chacune des application sur leurs port respectifs.  
 
 ## Test
-Vous pouvez utiliser le json postman exporté sur le repo pour tester différentes requêtes.
+Vous pouvez utiliser le json postman exporté sur le repo pour tester différentes requêtes.  
+
 Si vous voulez tester rapidement via navigateur, voici des exemples d'adresses accessible:
 
 Adresse Config:
