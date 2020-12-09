@@ -23,7 +23,10 @@ Ordre de lancement des projets :
 Config -> Découverte -> Proxy -> Métier(s)
 Métier(s) fait references aux applications Art.
 Une fois lancé, vous pourrez accéder à chacune des application sur leurs port respectifs. 
-Voici des exemples d'adresses accessible:
+
+##Test
+Vous pouvez utiliser le json postman exporté sur le repo pour tester différentes requêtes.
+Si vous voulez tester rapidement via navigateur, voici des exemples d'adresses accessible:
 
 Adresse Config:
 ```
