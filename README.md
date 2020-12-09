@@ -1,7 +1,7 @@
 # Spring
 Repo contenant plusieurs application permettant de faire tourner un projet spring entier de Base de donnée de peintures
 
-##Installation
+## Installation
 Clonez le repository :
 ```
 $ git clone https://github.com/tameII/Spring.git
@@ -18,13 +18,13 @@ $ git commit -m "initialisation configServer"
 
 Vous avez maintenant la configuration de départ pour lancer le projet. 
 
-##Démarrage
+## Démarrage
 Ordre de lancement des projets :
 Config -> Découverte -> Proxy -> Métier(s)
 Métier(s) fait references aux applications Art.
 Une fois lancé, vous pourrez accéder à chacune des application sur leurs port respectifs. 
 
-##Test
+## Test
 Vous pouvez utiliser le json postman exporté sur le repo pour tester différentes requêtes.
 Si vous voulez tester rapidement via navigateur, voici des exemples d'adresses accessible:
 
